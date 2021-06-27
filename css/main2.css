@@ -1,0 +1,228 @@
+﻿/*Các xử lý định dạng cho provider.html*/
+@import url('basic.css');
+@import url('all.css');
+@import url('images.css');
+
+
+/*****************Header****************/
+
+.header a:hover {
+  color: #9ed49a;
+  text-decoration: none;
+}
+
+.header{
+	color: #fff ;
+	background: rgba(50, 50, 50, 0.5);
+}
+
+.header .nav-link{
+	color: #fff ;
+	padding: 10px 0;
+	margin:10px 10px;
+}
+
+
+/**********sevice****************/
+
+.services .icon-box {
+	box-shadow: 5px 5px 5px #888; /* đổ bóng */
+	text-align: center;
+	border: 1px solid #eee;
+	padding: 40px 20px;
+	transition: all ease-in-out 0.3s;
+}
+
+.services .icon-box .icon {
+  margin: 0 auto;
+  width: 64px;
+  height: 64px;
+  border-radius: 5px;
+  transition: all .3s ease-out 0s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  transform-style: preserve-3d;
+}
+
+.services .icon-box .icon i {
+  font-size: 28px;
+}
+
+.services .icon-box h4 {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.services .icon-box h4 a {
+  color: #2c4964;
+}
+
+.services .icon-box p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.services .icon-box:hover {
+  background: 	#C0C0C0;
+}
+
+.services .icon-box:hover .icon {
+  background: #fff;
+}
+
+.services .icon-box:hover .icon i {
+  color: #C0C0C0;
+}
+
+.services .icon-box:hover h4 a, .services .icon-box:hover h6 {
+  color: #fff;
+}
+/**--------------section---------------------*/
+
+.sections .mycrop2{
+	max-height:200px;
+}
+.sections .crop-img1{
+	height:200px;
+	margin-right:10px !important;
+}
+.sections .mycrop1{
+	width: 100%;
+	max-height: 500px;
+	overflow: hidden;
+}
+.sections .crop-img3{
+	width:100%;
+	max-height: 420px;
+	overflow: hidden;
+}
+.sections .mycrop1 {
+  position: relative;
+  width: 100%;
+}
+
+.sections .image {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.sections .overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.2); 
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.sections .container-md:hover .overlay {
+  height: 100%;
+}
+
+.sections .text {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/*****************end SECTIONs****************/
+/**footer**/
+.footer h3:hover,p:hover,li:hover,i:hover{
+	 color: #9ed49a;
+	text-decoration: none;
+}
+
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	.header .nav-item .logo{
+		font-size:50px ;
+	}
+	.slider .row .card img{
+		height:600px !important;
+	}
+	.slider  .card h1{
+		font-size:50px !important;
+	}
+	
+	.navbar-toggler{
+		background:rgba(255, 255, 255, 0.7) !important;
+	}
+	
+	
+	
+	.media-body{
+		font-size: 16px !important;
+	}
+	.media-body h5{
+		font-size:18px !important;
+	}
+	.header.card-img-overlay{
+		font-size:10px !important;
+	}
+	
+	.sections .crop-img1{
+		width:100%;
+		height:15vh;
+		
+	}
+	.sections .mycrop1{
+		width: 100%;
+		max-height: 500px;
+		
+	}
+	.sections .crop-img3{
+		width:100%;
+		max-height: 420px;
+		overflow: hidden;
+	}
+	
+	
+}
+
+
+
+/*--------------------------------------------------------------
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.top{
+		display:none;
+	
+	}
+		.navbar-toggler{
+		background:rgba(255, 255, 255, 0.6) !important;
+	}
+	
+	
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	
+}
